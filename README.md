@@ -220,7 +220,7 @@ integration fixes. These were required to run, and are not counted as verificati
 
 ## How to Run
 
-Runs on [EDA Playground](https://www.edaplayground.com) — **EDA Playground link: _add here_**
+Runs on [EDA Playground](https://www.edaplayground.com) — **EDA Playground link: https://www.edaplayground.com/x/rJ7K**
 
 | Setting | Value |
 |---|---|
