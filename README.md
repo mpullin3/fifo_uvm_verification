@@ -1,4 +1,4 @@
-[README (1).md](https://github.com/user-attachments/files/34054946/README.1.md)
+
 # FIFO UVM Verification
 
 UVM verification of a parameterized 16×8 synchronous FIFO, simulated on Synopsys VCS.
@@ -18,8 +18,7 @@ failures and 0 scoreboard mismatches** (1,500+ random stress operations).
   pointer-progression assertions failed at wraparound because of 32-bit expression sizing.
 - **Regression-driven process:** baseline → one fix per round → full 5-test regression after
   each fix → multi-seed random regression.
-- **Coverage closure:** write, read, flag, and occupancy coverage at **100%**; operation coverage
-  at 91.7% (the remaining gap is documented below).
+- **Coverage closure:** write, read, flag, and occupancy coverage at **100%**, and operation coverage at 91.7%, all in a single run (stress test, seed 3). The remaining gap is documented below.
 
 ---
 
@@ -118,7 +117,7 @@ Transactions use constrained-random data (8-bit) and random inter-operation dela
 Seed 2 drove the mixed test to full for the first time (occupancy coverage 33% → 100%),
 exercising the fixed occupancy logic at the boundary.
 
-### Coverage (best across the regression)
+### Coverage (Stress Test, Seed 3)
 
 | Covergroup | Coverage | Notes |
 |---|---|---|
@@ -128,7 +127,7 @@ exercising the fixed occupancy logic at the boundary.
 | Occupancy | **100%** | `full = 16` bin only reachable after Fix #1 |
 | Operation | **91.7%** | Simultaneous read + write bin unreachable (see Known Limitations) |
 
-Coverage is reported per run. These figures are the best result across runs, merged by hand.
+Coverage is reported per run. All figures are from a single run: fifo_stress_test, seed 3 (logs/stress_test_seed3.log).
 
 ---
 
