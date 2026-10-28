@@ -1,0 +1,55 @@
+UVM_INFO @ 0: reporter [RNTST] Running test fifo_full_drain_test...
+"design.sv", 126: tb_top.dut.assert_occupancy_on_write: started at 625ns failed at 635ns
+	Offending '(occupancy == ($past(occupancy) + 1))'
+Error: "design.sv", 126: tb_top.dut.assert_occupancy_on_write: at time 635 ns
+FIFO ERROR: Occupancy did not increase on write!
+"design.sv", 138: tb_top.dut.assert_empty_occupancy_correlation: started at 635ns failed at 635ns
+	Offending '((occupancy == 0) <-> empty)'
+Error: "design.sv", 138: tb_top.dut.assert_empty_occupancy_correlation: at time 635 ns
+FIFO ERROR: Empty flag doesn't match occupancy!
+"design.sv", 144: tb_top.dut.assert_full_occupancy_correlation: started at 635ns failed at 635ns
+	Offending '((occupancy == DEPTH) <-> full)'
+Error: "design.sv", 144: tb_top.dut.assert_full_occupancy_correlation: at time 635 ns
+FIFO ERROR: Full flag doesn't match occupancy!
+"design.sv", 132: tb_top.dut.assert_occupancy_on_read: started at 635ns failed at 645ns
+	Offending '(occupancy == ($past(occupancy) - 1))'
+Error: "design.sv", 132: tb_top.dut.assert_occupancy_on_read: at time 645 ns
+FIFO ERROR: Occupancy did not decrease on read!
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 1275: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO testbench.sv(247) @ 1275: uvm_test_top.env.agent.driver [DRV] Writes applied: 16, reads applied: 16, skipped writes: 0, skipped reads: 0
+UVM_INFO testbench.sv(428) @ 1275: uvm_test_top.env.agent.monitor [MON] Writes observed: 16, reads observed: 16, concurrent r/w: 0
+UVM_INFO testbench.sv(430) @ 1275: uvm_test_top.env.agent.monitor [COV] === COVERAGE SUMMARY ===
+UVM_INFO testbench.sv(431) @ 1275: uvm_test_top.env.agent.monitor [COV] Write coverage:     75.0%
+UVM_INFO testbench.sv(432) @ 1275: uvm_test_top.env.agent.monitor [COV] Read coverage:      75.0%
+UVM_INFO testbench.sv(433) @ 1275: uvm_test_top.env.agent.monitor [COV] Flag coverage:      100.0%
+UVM_INFO testbench.sv(434) @ 1275: uvm_test_top.env.agent.monitor [COV] Occupancy coverage: 83.3%
+UVM_INFO testbench.sv(435) @ 1275: uvm_test_top.env.agent.monitor [COV] Operation coverage: 91.7%
+UVM_INFO testbench.sv(529) @ 1275: uvm_test_top.env.scoreboard [SCBD] Writes: 16, reads: 16, matches: 16, mismatches: 0, left in FIFO: 0
+UVM_INFO testbench.sv(532) @ 1275: uvm_test_top.env.scoreboard [SCBD] PASSED: all reads matched expected data
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_server.svh(904) @ 1275: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   13
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     6
+[DRV]     1
+[MON]     1
+[RNTST]     1
+[SCBD]     2
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_root.svh", line 532.
+$finish at simulation time                 1275
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1275 ns
+CPU Time:      0.650 seconds;       Data structure size:   0.3Mb
+Wed Oct 21 17:17:43 2026
+Finding VCD file...
+./dump.vcd
+[2026-10-21 21:17:43 UTC] Opening EPWave...
+Done

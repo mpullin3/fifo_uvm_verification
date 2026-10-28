@@ -1,0 +1,1511 @@
+UVM_INFO @ 0: reporter [RNTST] Running test fifo_stress_test...
+UVM_INFO testbench.sv(230) @ 675: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(230) @ 915: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(230) @ 1165: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+"design.sv", 115: tb_top.dut.assert_no_read_when_empty: started at 1395ns failed at 1395ns
+	Offending '(empty -> (!read_en))'
+Error: "design.sv", 115: tb_top.dut.assert_no_read_when_empty: at time 1395 ns
+FIFO ERROR: Read attempted when FIFO is empty!
+UVM_INFO testbench.sv(230) @ 1615: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(230) @ 1845: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(230) @ 2045: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(230) @ 2295: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(230) @ 2585: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+"design.sv", 115: tb_top.dut.assert_no_read_when_empty: started at 3115ns failed at 3115ns
+	Offending '(empty -> (!read_en))'
+Error: "design.sv", 115: tb_top.dut.assert_no_read_when_empty: at time 3115 ns
+FIFO ERROR: Read attempted when FIFO is empty!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 3835ns failed at 3835ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 3835 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 3845ns failed at 3845ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 3845 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 3855ns failed at 3855ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 3855 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 3865ns failed at 3865ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 3865 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 3875ns failed at 3875ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 3875 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 3885ns failed at 3885ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 3885 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 121: tb_top.dut.assert_write_ptr_progression: started at 3885ns failed at 3895ns
+	Offending '(wr_ptr == ($past(wr_ptr) + 1))'
+Error: "design.sv", 121: tb_top.dut.assert_write_ptr_progression: at time 3895 ns
+FIFO ERROR: Write pointer did not increment on write!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 4305ns failed at 4305ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 4305 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 4315ns failed at 4315ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 4315 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 4325ns failed at 4325ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 4325 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 4335ns failed at 4335ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 4335 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 4345ns failed at 4345ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 4345 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 4355ns failed at 4355ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 4355 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 4365ns failed at 4365ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 4365 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 4375ns failed at 4375ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 4375 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 4385ns failed at 4385ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 4385 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 4395ns failed at 4395ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 4395 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 4405ns failed at 4405ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 4405 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 127: tb_top.dut.assert_read_ptr_progression: started at 4405ns failed at 4415ns
+	Offending '(rd_ptr == ($past(rd_ptr) + 1))'
+Error: "design.sv", 127: tb_top.dut.assert_read_ptr_progression: at time 4415 ns
+FIFO ERROR: Read pointer did not increment on read!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 6025ns failed at 6025ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 6025 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 6035ns failed at 6035ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 6035 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 6045ns failed at 6045ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 6045 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 121: tb_top.dut.assert_write_ptr_progression: started at 6045ns failed at 6055ns
+	Offending '(wr_ptr == ($past(wr_ptr) + 1))'
+Error: "design.sv", 121: tb_top.dut.assert_write_ptr_progression: at time 6055 ns
+FIFO ERROR: Write pointer did not increment on write!
+UVM_INFO testbench.sv(205) @ 6855: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 7095: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 7335: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 7675: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 7885: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 8115: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 8435: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 8535ns failed at 8535ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 8535 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 8545ns failed at 8545ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 8545 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 127: tb_top.dut.assert_read_ptr_progression: started at 8545ns failed at 8555ns
+	Offending '(rd_ptr == ($past(rd_ptr) + 1))'
+Error: "design.sv", 127: tb_top.dut.assert_read_ptr_progression: at time 8555 ns
+FIFO ERROR: Read pointer did not increment on read!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 9945ns failed at 9945ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 9945 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 9955ns failed at 9955ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 9955 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 9965ns failed at 9965ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 9965 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 9975ns failed at 9975ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 9975 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 121: tb_top.dut.assert_write_ptr_progression: started at 9975ns failed at 9985ns
+	Offending '(wr_ptr == ($past(wr_ptr) + 1))'
+Error: "design.sv", 121: tb_top.dut.assert_write_ptr_progression: at time 9985 ns
+FIFO ERROR: Write pointer did not increment on write!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 10795ns failed at 10795ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 10795 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 10805ns failed at 10805ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 10805 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 10815ns failed at 10815ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 10815 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 10825ns failed at 10825ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 10825 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 10835ns failed at 10835ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 10835 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 127: tb_top.dut.assert_read_ptr_progression: started at 10835ns failed at 10845ns
+	Offending '(rd_ptr == ($past(rd_ptr) + 1))'
+Error: "design.sv", 127: tb_top.dut.assert_read_ptr_progression: at time 10845 ns
+FIFO ERROR: Read pointer did not increment on read!
+UVM_INFO testbench.sv(205) @ 11565: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 109: tb_top.dut.assert_no_write_when_full: started at 11715ns failed at 11715ns
+	Offending '(full -> (!write_en))'
+Error: "design.sv", 109: tb_top.dut.assert_no_write_when_full: at time 11715 ns
+FIFO ERROR: Write attempted when FIFO is full!
+UVM_INFO testbench.sv(205) @ 12395: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 12635: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12795ns failed at 12795ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12795 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12805ns failed at 12805ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12805 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12815ns failed at 12815ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12815 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12825ns failed at 12825ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12825 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12835ns failed at 12835ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12835 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12845ns failed at 12845ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12845 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12855ns failed at 12855ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12855 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12865ns failed at 12865ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12865 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12875ns failed at 12875ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12875 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12885ns failed at 12885ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12885 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12895ns failed at 12895ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12895 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12905ns failed at 12905ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12905 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12915ns failed at 12915ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12915 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12925ns failed at 12925ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12925 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12935ns failed at 12935ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12935 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12945ns failed at 12945ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12945 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12955ns failed at 12955ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12955 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12965ns failed at 12965ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12965 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12975ns failed at 12975ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12975 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12985ns failed at 12985ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12985 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 12995ns failed at 12995ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 12995 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13005ns failed at 13005ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13005 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13015ns failed at 13015ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13015 ns
+FIFO ERROR: Pointer wraparound incorrect!
+UVM_INFO testbench.sv(205) @ 13025: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13025ns failed at 13025ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13025 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13035ns failed at 13035ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13035 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13045ns failed at 13045ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13045 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13055ns failed at 13055ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13055 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13065ns failed at 13065ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13065 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13075ns failed at 13075ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13075 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13085ns failed at 13085ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13085 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13095ns failed at 13095ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13095 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13105ns failed at 13105ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13105 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13115ns failed at 13115ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13115 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13125ns failed at 13125ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13125 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13135ns failed at 13135ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13135 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13145ns failed at 13145ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13145 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13155ns failed at 13155ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13155 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13165ns failed at 13165ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13165 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13175ns failed at 13175ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13175 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13185ns failed at 13185ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13185 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13195ns failed at 13195ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13195 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13205ns failed at 13205ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13205 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13215ns failed at 13215ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13215 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13225ns failed at 13225ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13225 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13235ns failed at 13235ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13235 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13245ns failed at 13245ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13245 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13255ns failed at 13255ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13255 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13265ns failed at 13265ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13265 ns
+FIFO ERROR: Pointer wraparound incorrect!
+UVM_INFO testbench.sv(205) @ 13275: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13275ns failed at 13275ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13275 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13285ns failed at 13285ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13285 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13295ns failed at 13295ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13295 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13305ns failed at 13305ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13305 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13315ns failed at 13315ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13315 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13325ns failed at 13325ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13325 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13335ns failed at 13335ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13335 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13345ns failed at 13345ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13345 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13355ns failed at 13355ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13355 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13365ns failed at 13365ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13365 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13375ns failed at 13375ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13375 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13385ns failed at 13385ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13385 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13395ns failed at 13395ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13395 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13405ns failed at 13405ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13405 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13415ns failed at 13415ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13415 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13425ns failed at 13425ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13425 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13435ns failed at 13435ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13435 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13445ns failed at 13445ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13445 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13455ns failed at 13455ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13455 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13465ns failed at 13465ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13465 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13475ns failed at 13475ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13475 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13485ns failed at 13485ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13485 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13495ns failed at 13495ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13495 ns
+FIFO ERROR: Pointer wraparound incorrect!
+UVM_INFO testbench.sv(205) @ 13505: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13505ns failed at 13505ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13505 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13515ns failed at 13515ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13515 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13525ns failed at 13525ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13525 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13535ns failed at 13535ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13535 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13545ns failed at 13545ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13545 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13555ns failed at 13555ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13555 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13565ns failed at 13565ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13565 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13575ns failed at 13575ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13575 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13585ns failed at 13585ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13585 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13595ns failed at 13595ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13595 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13605ns failed at 13605ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13605 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13615ns failed at 13615ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13615 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13625ns failed at 13625ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13625 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13635ns failed at 13635ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13635 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13645ns failed at 13645ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13645 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13655ns failed at 13655ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13655 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13665ns failed at 13665ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13665 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13675ns failed at 13675ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13675 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13685ns failed at 13685ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13685 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13695ns failed at 13695ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13695 ns
+FIFO ERROR: Pointer wraparound incorrect!
+UVM_INFO testbench.sv(205) @ 13705: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13705ns failed at 13705ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13705 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13715ns failed at 13715ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13715 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13725ns failed at 13725ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13725 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13735ns failed at 13735ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13735 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13745ns failed at 13745ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13745 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13755ns failed at 13755ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13755 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13765ns failed at 13765ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13765 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13775ns failed at 13775ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13775 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13785ns failed at 13785ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13785 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13795ns failed at 13795ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13795 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13805ns failed at 13805ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13805 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13815ns failed at 13815ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13815 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13825ns failed at 13825ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13825 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13835ns failed at 13835ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13835 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13845ns failed at 13845ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13845 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13855ns failed at 13855ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13855 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13865ns failed at 13865ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13865 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13875ns failed at 13875ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13875 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13885ns failed at 13885ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13885 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13895ns failed at 13895ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13895 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13905ns failed at 13905ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13905 ns
+FIFO ERROR: Pointer wraparound incorrect!
+UVM_INFO testbench.sv(205) @ 13915: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13915ns failed at 13915ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13915 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13925ns failed at 13925ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13925 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13935ns failed at 13935ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13935 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13945ns failed at 13945ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13945 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13955ns failed at 13955ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13955 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13965ns failed at 13965ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13965 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13975ns failed at 13975ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13975 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13985ns failed at 13985ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13985 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 13995ns failed at 13995ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 13995 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 109: tb_top.dut.assert_no_write_when_full: started at 14005ns failed at 14005ns
+	Offending '(full -> (!write_en))'
+Error: "design.sv", 109: tb_top.dut.assert_no_write_when_full: at time 14005 ns
+FIFO ERROR: Write attempted when FIFO is full!
+"design.sv", 121: tb_top.dut.assert_write_ptr_progression: started at 13995ns failed at 14005ns
+	Offending '(wr_ptr == ($past(wr_ptr) + 1))'
+Error: "design.sv", 121: tb_top.dut.assert_write_ptr_progression: at time 14005 ns
+FIFO ERROR: Write pointer did not increment on write!
+UVM_INFO testbench.sv(205) @ 14235: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 14995: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 15455: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 15635ns failed at 15635ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 15635 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 15645ns failed at 15645ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 15645 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 127: tb_top.dut.assert_read_ptr_progression: started at 15645ns failed at 15655ns
+	Offending '(rd_ptr == ($past(rd_ptr) + 1))'
+Error: "design.sv", 127: tb_top.dut.assert_read_ptr_progression: at time 15655 ns
+FIFO ERROR: Read pointer did not increment on read!
+"design.sv", 109: tb_top.dut.assert_no_write_when_full: started at 16195ns failed at 16195ns
+	Offending '(full -> (!write_en))'
+Error: "design.sv", 109: tb_top.dut.assert_no_write_when_full: at time 16195 ns
+FIFO ERROR: Write attempted when FIFO is full!
+UVM_INFO testbench.sv(205) @ 16425: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 16965: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 17175: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 17425: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 17835: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 17905ns failed at 17905ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 17905 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 17915ns failed at 17915ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 17915 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 17925ns failed at 17925ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 17925 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 17935ns failed at 17935ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 17935 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 17945ns failed at 17945ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 17945 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 17955ns failed at 17955ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 17955 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 17965ns failed at 17965ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 17965 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 17975ns failed at 17975ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 17975 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 17985ns failed at 17985ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 17985 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 17995ns failed at 17995ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 17995 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18005ns failed at 18005ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18005 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18015ns failed at 18015ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18015 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18025ns failed at 18025ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18025 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18035ns failed at 18035ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18035 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18045ns failed at 18045ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18045 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18055ns failed at 18055ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18055 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18065ns failed at 18065ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18065 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18075ns failed at 18075ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18075 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18085ns failed at 18085ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18085 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18095ns failed at 18095ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18095 ns
+FIFO ERROR: Pointer wraparound incorrect!
+UVM_INFO testbench.sv(205) @ 18105: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18105ns failed at 18105ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18105 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18115ns failed at 18115ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18115 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18125ns failed at 18125ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18125 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18135ns failed at 18135ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18135 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18145ns failed at 18145ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18145 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18155ns failed at 18155ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18155 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18165ns failed at 18165ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18165 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18175ns failed at 18175ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18175 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18185ns failed at 18185ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18185 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18195ns failed at 18195ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18195 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18205ns failed at 18205ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18205 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18215ns failed at 18215ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18215 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18225ns failed at 18225ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18225 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18235ns failed at 18235ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18235 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18245ns failed at 18245ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18245 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18255ns failed at 18255ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18255 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18265ns failed at 18265ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18265 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18275ns failed at 18275ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18275 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18285ns failed at 18285ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18285 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18295ns failed at 18295ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18295 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18305ns failed at 18305ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18305 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18315ns failed at 18315ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18315 ns
+FIFO ERROR: Pointer wraparound incorrect!
+UVM_INFO testbench.sv(205) @ 18325: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18325ns failed at 18325ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18325 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18335ns failed at 18335ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18335 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18345ns failed at 18345ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18345 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18355ns failed at 18355ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18355 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18365ns failed at 18365ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18365 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18375ns failed at 18375ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18375 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18385ns failed at 18385ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18385 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18395ns failed at 18395ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18395 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18405ns failed at 18405ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18405 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18415ns failed at 18415ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18415 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18425ns failed at 18425ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18425 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18435ns failed at 18435ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18435 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18445ns failed at 18445ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18445 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18455ns failed at 18455ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18455 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18465ns failed at 18465ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18465 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18475ns failed at 18475ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18475 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18485ns failed at 18485ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18485 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18495ns failed at 18495ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18495 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18505ns failed at 18505ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18505 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18515ns failed at 18515ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18515 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18525ns failed at 18525ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18525 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18535ns failed at 18535ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18535 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18545ns failed at 18545ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18545 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18555ns failed at 18555ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18555 ns
+FIFO ERROR: Pointer wraparound incorrect!
+UVM_INFO testbench.sv(205) @ 18565: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18565ns failed at 18565ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18565 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18575ns failed at 18575ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18575 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18585ns failed at 18585ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18585 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18595ns failed at 18595ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18595 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18605ns failed at 18605ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18605 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18615ns failed at 18615ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18615 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18625ns failed at 18625ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18625 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18635ns failed at 18635ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18635 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18645ns failed at 18645ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18645 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18655ns failed at 18655ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18655 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18665ns failed at 18665ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18665 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18675ns failed at 18675ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18675 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18685ns failed at 18685ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18685 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18695ns failed at 18695ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18695 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18705ns failed at 18705ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18705 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18715ns failed at 18715ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18715 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18725ns failed at 18725ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18725 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18735ns failed at 18735ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18735 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18745ns failed at 18745ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18745 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18755ns failed at 18755ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18755 ns
+FIFO ERROR: Pointer wraparound incorrect!
+UVM_INFO testbench.sv(205) @ 18765: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18765ns failed at 18765ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18765 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18775ns failed at 18775ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18775 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18785ns failed at 18785ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18785 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18795ns failed at 18795ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18795 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18805ns failed at 18805ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18805 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18815ns failed at 18815ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18815 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18825ns failed at 18825ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18825 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18835ns failed at 18835ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18835 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18845ns failed at 18845ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18845 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18855ns failed at 18855ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18855 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18865ns failed at 18865ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18865 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18875ns failed at 18875ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18875 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18885ns failed at 18885ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18885 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18895ns failed at 18895ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18895 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18905ns failed at 18905ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18905 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18915ns failed at 18915ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18915 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18925ns failed at 18925ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18925 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18935ns failed at 18935ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18935 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18945ns failed at 18945ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18945 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18955ns failed at 18955ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18955 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18965ns failed at 18965ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18965 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18975ns failed at 18975ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18975 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18985ns failed at 18985ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18985 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 18995ns failed at 18995ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 18995 ns
+FIFO ERROR: Pointer wraparound incorrect!
+UVM_INFO testbench.sv(205) @ 19005: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19005ns failed at 19005ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19005 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19015ns failed at 19015ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19015 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19025ns failed at 19025ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19025 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19035ns failed at 19035ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19035 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19045ns failed at 19045ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19045 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19055ns failed at 19055ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19055 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19065ns failed at 19065ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19065 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19075ns failed at 19075ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19075 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19085ns failed at 19085ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19085 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19095ns failed at 19095ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19095 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19105ns failed at 19105ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19105 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19115ns failed at 19115ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19115 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19125ns failed at 19125ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19125 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19135ns failed at 19135ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19135 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19145ns failed at 19145ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19145 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19155ns failed at 19155ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19155 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19165ns failed at 19165ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19165 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19175ns failed at 19175ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19175 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19185ns failed at 19185ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19185 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19195ns failed at 19195ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19195 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19205ns failed at 19205ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19205 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19215ns failed at 19215ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19215 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19225ns failed at 19225ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19225 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19235ns failed at 19235ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19235 ns
+FIFO ERROR: Pointer wraparound incorrect!
+UVM_INFO testbench.sv(205) @ 19245: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19245ns failed at 19245ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19245 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19255ns failed at 19255ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19255 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19265ns failed at 19265ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19265 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19275ns failed at 19275ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19275 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19285ns failed at 19285ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19285 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19295ns failed at 19295ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19295 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19305ns failed at 19305ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19305 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19315ns failed at 19315ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19315 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19325ns failed at 19325ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19325 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19335ns failed at 19335ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19335 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19345ns failed at 19345ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19345 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19355ns failed at 19355ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19355 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19365ns failed at 19365ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19365 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19375ns failed at 19375ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19375 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19385ns failed at 19385ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19385 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19395ns failed at 19395ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19395 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19405ns failed at 19405ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19405 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19415ns failed at 19415ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19415 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19425ns failed at 19425ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19425 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19435ns failed at 19435ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19435 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19445ns failed at 19445ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19445 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19455ns failed at 19455ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19455 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19465ns failed at 19465ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19465 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19475ns failed at 19475ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19475 ns
+FIFO ERROR: Pointer wraparound incorrect!
+UVM_INFO testbench.sv(205) @ 19485: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19485ns failed at 19485ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19485 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19495ns failed at 19495ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19495 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19505ns failed at 19505ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19505 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19515ns failed at 19515ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19515 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19525ns failed at 19525ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19525 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19535ns failed at 19535ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19535 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19545ns failed at 19545ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19545 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19555ns failed at 19555ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19555 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 19565ns failed at 19565ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 19565 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 121: tb_top.dut.assert_write_ptr_progression: started at 19565ns failed at 19575ns
+	Offending '(wr_ptr == ($past(wr_ptr) + 1))'
+Error: "design.sv", 121: tb_top.dut.assert_write_ptr_progression: at time 19575 ns
+FIFO ERROR: Write pointer did not increment on write!
+UVM_INFO testbench.sv(205) @ 19905: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 20145: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 20835: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 21285: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 21575ns failed at 21575ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 21575 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 21585ns failed at 21585ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 21585 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 21595ns failed at 21595ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 21595 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 127: tb_top.dut.assert_read_ptr_progression: started at 21595ns failed at 21605ns
+	Offending '(rd_ptr == ($past(rd_ptr) + 1))'
+Error: "design.sv", 127: tb_top.dut.assert_read_ptr_progression: at time 21605 ns
+FIFO ERROR: Read pointer did not increment on read!
+UVM_INFO testbench.sv(205) @ 22705: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 22995ns failed at 22995ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 22995 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 23005ns failed at 23005ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 23005 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 23015ns failed at 23015ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 23015 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 23025ns failed at 23025ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 23025 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 23035ns failed at 23035ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 23035 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 23045ns failed at 23045ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 23045 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 23055ns failed at 23055ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 23055 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 121: tb_top.dut.assert_write_ptr_progression: started at 23055ns failed at 23065ns
+	Offending '(wr_ptr == ($past(wr_ptr) + 1))'
+Error: "design.sv", 121: tb_top.dut.assert_write_ptr_progression: at time 23065 ns
+FIFO ERROR: Write pointer did not increment on write!
+UVM_INFO testbench.sv(205) @ 23305: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 23615: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 23855: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 24055: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 24495: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 24745: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 24945: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 25335: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 25955: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 26285: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 26485ns failed at 26485ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 26485 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 26495ns failed at 26495ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 26495 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 157: tb_top.dut.assert_pointer_wraparound: started at 26505ns failed at 26505ns
+	Offending '((wr_ptr < {(ADDR_WIDTH + 1) {1'b1}}) && (rd_ptr < {(ADDR_WIDTH + 1) {1'b1}}))'
+Error: "design.sv", 157: tb_top.dut.assert_pointer_wraparound: at time 26505 ns
+FIFO ERROR: Pointer wraparound incorrect!
+"design.sv", 127: tb_top.dut.assert_read_ptr_progression: started at 26505ns failed at 26515ns
+	Offending '(rd_ptr == ($past(rd_ptr) + 1))'
+Error: "design.sv", 127: tb_top.dut.assert_read_ptr_progression: at time 26515 ns
+FIFO ERROR: Read pointer did not increment on read!
+UVM_INFO testbench.sv(205) @ 26905: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 27235: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 27525: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 27755: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 27965: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 28185: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 28545: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 28775: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 28985: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 29235: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 29525: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 29965: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 30305: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 30555: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 30785: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 31065: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO testbench.sv(247) @ 31065: uvm_test_top.env.agent.driver [DRV] Writes applied: 224, reads applied: 208, skipped writes: 60, skipped reads: 8
+UVM_INFO testbench.sv(428) @ 31065: uvm_test_top.env.agent.monitor [MON] Writes observed: 221, reads observed: 206, concurrent r/w: 0
+UVM_INFO testbench.sv(430) @ 31065: uvm_test_top.env.agent.monitor [COV] === COVERAGE SUMMARY ===
+UVM_INFO testbench.sv(431) @ 31065: uvm_test_top.env.agent.monitor [COV] Write coverage:     87.5%
+UVM_INFO testbench.sv(432) @ 31065: uvm_test_top.env.agent.monitor [COV] Read coverage:      87.5%
+UVM_INFO testbench.sv(433) @ 31065: uvm_test_top.env.agent.monitor [COV] Flag coverage:      100.0%
+UVM_INFO testbench.sv(434) @ 31065: uvm_test_top.env.agent.monitor [COV] Occupancy coverage: 100.0%
+UVM_INFO testbench.sv(435) @ 31065: uvm_test_top.env.agent.monitor [COV] Operation coverage: 91.7%
+UVM_INFO testbench.sv(529) @ 31065: uvm_test_top.env.scoreboard [SCBD] Writes: 221, reads: 206, matches: 206, mismatches: 0, left in FIFO: 15
+UVM_INFO testbench.sv(532) @ 31065: uvm_test_top.env.scoreboard [SCBD] PASSED: all reads matched expected data
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_server.svh(904) @ 31065: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   81
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     6
+[DRV]    69
+[MON]     1
+[RNTST]     1
+[SCBD]     2
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_root.svh", line 532.
+$finish at simulation time                31065
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 31065 ns
+CPU Time:      0.680 seconds;       Data structure size:   0.3Mb
+Wed Oct 21 19:02:39 2026
+Finding VCD file...
+./dump.vcd
+[2026-10-21 23:02:39 UTC] Opening EPWave...
+Done

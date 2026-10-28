@@ -1,0 +1,39 @@
+UVM_INFO @ 0: reporter [RNTST] Running test fifo_read_test...
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 885: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO testbench.sv(251) @ 885: uvm_test_top.env.agent.driver [DRV] Writes applied: 8, reads applied: 8, skipped writes: 0, skipped reads: 0
+UVM_INFO testbench.sv(432) @ 885: uvm_test_top.env.agent.monitor [MON] Writes observed: 8, reads observed: 8, concurrent r/w: 0
+UVM_INFO testbench.sv(434) @ 885: uvm_test_top.env.agent.monitor [COV] === COVERAGE SUMMARY ===
+UVM_INFO testbench.sv(435) @ 885: uvm_test_top.env.agent.monitor [COV] Write coverage:     50.0%
+UVM_INFO testbench.sv(436) @ 885: uvm_test_top.env.agent.monitor [COV] Read coverage:      50.0%
+UVM_INFO testbench.sv(437) @ 885: uvm_test_top.env.agent.monitor [COV] Flag coverage:      72.2%
+UVM_INFO testbench.sv(438) @ 885: uvm_test_top.env.agent.monitor [COV] Occupancy coverage: 50.0%
+UVM_INFO testbench.sv(439) @ 885: uvm_test_top.env.agent.monitor [COV] Operation coverage: 91.7%
+UVM_INFO testbench.sv(533) @ 885: uvm_test_top.env.scoreboard [SCBD] Writes: 8, reads: 8, matches: 8, mismatches: 0, left in FIFO: 0
+UVM_INFO testbench.sv(536) @ 885: uvm_test_top.env.scoreboard [SCBD] PASSED: all reads matched expected data
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_server.svh(904) @ 885: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   13
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     6
+[DRV]     1
+[MON]     1
+[RNTST]     1
+[SCBD]     2
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_root.svh", line 532.
+$finish at simulation time                  885
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 885 ns
+CPU Time:      0.620 seconds;       Data structure size:   0.3Mb
+Wed Oct 21 20:42:20 2026
+Finding VCD file...
+./dump.vcd
+[2026-10-22 00:42:20 UTC] Opening EPWave...
+Done

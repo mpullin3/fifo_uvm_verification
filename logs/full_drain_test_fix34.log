@@ -1,0 +1,39 @@
+UVM_INFO @ 0: reporter [RNTST] Running test fifo_full_drain_test...
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 1595: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO testbench.sv(251) @ 1595: uvm_test_top.env.agent.driver [DRV] Writes applied: 16, reads applied: 16, skipped writes: 0, skipped reads: 0
+UVM_INFO testbench.sv(432) @ 1595: uvm_test_top.env.agent.monitor [MON] Writes observed: 16, reads observed: 16, concurrent r/w: 0
+UVM_INFO testbench.sv(434) @ 1595: uvm_test_top.env.agent.monitor [COV] === COVERAGE SUMMARY ===
+UVM_INFO testbench.sv(435) @ 1595: uvm_test_top.env.agent.monitor [COV] Write coverage:     75.0%
+UVM_INFO testbench.sv(436) @ 1595: uvm_test_top.env.agent.monitor [COV] Read coverage:      75.0%
+UVM_INFO testbench.sv(437) @ 1595: uvm_test_top.env.agent.monitor [COV] Flag coverage:      100.0%
+UVM_INFO testbench.sv(438) @ 1595: uvm_test_top.env.agent.monitor [COV] Occupancy coverage: 100.0%
+UVM_INFO testbench.sv(439) @ 1595: uvm_test_top.env.agent.monitor [COV] Operation coverage: 91.7%
+UVM_INFO testbench.sv(533) @ 1595: uvm_test_top.env.scoreboard [SCBD] Writes: 16, reads: 16, matches: 16, mismatches: 0, left in FIFO: 0
+UVM_INFO testbench.sv(536) @ 1595: uvm_test_top.env.scoreboard [SCBD] PASSED: all reads matched expected data
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_server.svh(904) @ 1595: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   13
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     6
+[DRV]     1
+[MON]     1
+[RNTST]     1
+[SCBD]     2
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_root.svh", line 532.
+$finish at simulation time                 1595
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1595 ns
+CPU Time:      0.640 seconds;       Data structure size:   0.3Mb
+Thu Oct 22 15:54:00 2026
+Finding VCD file...
+./dump.vcd
+[2026-10-22 19:54:00 UTC] Opening EPWave...
+Done

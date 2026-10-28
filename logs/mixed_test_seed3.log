@@ -1,0 +1,41 @@
+UVM_INFO @ 0: reporter [RNTST] Running test fifo_mixed_test...
+UVM_INFO testbench.sv(232) @ 545: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(232) @ 1155: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 1965: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO testbench.sv(251) @ 1965: uvm_test_top.env.agent.driver [DRV] Writes applied: 18, reads applied: 12, skipped writes: 0, skipped reads: 2
+UVM_INFO testbench.sv(432) @ 1965: uvm_test_top.env.agent.monitor [MON] Writes observed: 18, reads observed: 12, concurrent r/w: 0
+UVM_INFO testbench.sv(434) @ 1965: uvm_test_top.env.agent.monitor [COV] === COVERAGE SUMMARY ===
+UVM_INFO testbench.sv(435) @ 1965: uvm_test_top.env.agent.monitor [COV] Write coverage:     75.0%
+UVM_INFO testbench.sv(436) @ 1965: uvm_test_top.env.agent.monitor [COV] Read coverage:      62.5%
+UVM_INFO testbench.sv(437) @ 1965: uvm_test_top.env.agent.monitor [COV] Flag coverage:      72.2%
+UVM_INFO testbench.sv(438) @ 1965: uvm_test_top.env.agent.monitor [COV] Occupancy coverage: 50.0%
+UVM_INFO testbench.sv(439) @ 1965: uvm_test_top.env.agent.monitor [COV] Operation coverage: 91.7%
+UVM_INFO testbench.sv(533) @ 1965: uvm_test_top.env.scoreboard [SCBD] Writes: 18, reads: 12, matches: 12, mismatches: 0, left in FIFO: 6
+UVM_INFO testbench.sv(536) @ 1965: uvm_test_top.env.scoreboard [SCBD] PASSED: all reads matched expected data
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_server.svh(904) @ 1965: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   15
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     6
+[DRV]     3
+[MON]     1
+[RNTST]     1
+[SCBD]     2
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_root.svh", line 532.
+$finish at simulation time                 1965
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1965 ns
+CPU Time:      0.660 seconds;       Data structure size:   0.3Mb
+Fri Oct 23 15:59:24 2026
+Finding VCD file...
+./dump.vcd
+[2026-10-23 19:59:25 UTC] Opening EPWave...
+Done

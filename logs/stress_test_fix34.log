@@ -1,0 +1,112 @@
+UVM_INFO @ 0: reporter [RNTST] Running test fifo_stress_test...
+UVM_INFO testbench.sv(232) @ 775: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(232) @ 1015: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(232) @ 1265: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(232) @ 1745: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(232) @ 1965: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(232) @ 2195: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(232) @ 2395: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(232) @ 2645: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(232) @ 2955: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(232) @ 3795: uvm_test_top.env.agent.driver [DRV] FIFO still empty after 20 cycles, skipping read
+UVM_INFO testbench.sv(205) @ 8555: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 8795: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 9035: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 9405: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 9615: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 9845: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 10185: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 14095: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 14475: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 15275: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 15515: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 15965: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 16215: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 16445: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 16645: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 16855: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 17155: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 17385: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 18255: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 18795: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 19945: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 20175: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 20835: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 21045: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 21295: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 21765: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 22055: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 22275: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 22515: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 22715: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 22955: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 23195: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 23435: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 23915: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 24155: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 24945: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 25455: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 27235: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 27905: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 28235: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 28475: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 28675: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 29155: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 29405: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 29605: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 30035: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 30745: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 31095: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 31835: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 32185: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 32495: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 32725: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 32935: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 33155: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 33555: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 33785: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 33995: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 34245: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 34555: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 35045: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 35425: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 35675: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO testbench.sv(205) @ 35905: uvm_test_top.env.agent.driver [DRV] FIFO still full after 20 cycles, skipping write
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 36235: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO testbench.sv(251) @ 36235: uvm_test_top.env.agent.driver [DRV] Writes applied: 221, reads applied: 206, skipped writes: 63, skipped reads: 10
+UVM_INFO testbench.sv(432) @ 36235: uvm_test_top.env.agent.monitor [MON] Writes observed: 221, reads observed: 206, concurrent r/w: 0
+UVM_INFO testbench.sv(434) @ 36235: uvm_test_top.env.agent.monitor [COV] === COVERAGE SUMMARY ===
+UVM_INFO testbench.sv(435) @ 36235: uvm_test_top.env.agent.monitor [COV] Write coverage:     87.5%
+UVM_INFO testbench.sv(436) @ 36235: uvm_test_top.env.agent.monitor [COV] Read coverage:      87.5%
+UVM_INFO testbench.sv(437) @ 36235: uvm_test_top.env.agent.monitor [COV] Flag coverage:      100.0%
+UVM_INFO testbench.sv(438) @ 36235: uvm_test_top.env.agent.monitor [COV] Occupancy coverage: 100.0%
+UVM_INFO testbench.sv(439) @ 36235: uvm_test_top.env.agent.monitor [COV] Operation coverage: 91.7%
+UVM_INFO testbench.sv(533) @ 36235: uvm_test_top.env.scoreboard [SCBD] Writes: 221, reads: 206, matches: 206, mismatches: 0, left in FIFO: 15
+UVM_INFO testbench.sv(536) @ 36235: uvm_test_top.env.scoreboard [SCBD] PASSED: all reads matched expected data
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_server.svh(904) @ 36235: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   86
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     6
+[DRV]    74
+[MON]     1
+[RNTST]     1
+[SCBD]     2
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_root.svh", line 532.
+$finish at simulation time                36235
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 36235 ns
+CPU Time:      0.830 seconds;       Data structure size:   0.3Mb
+Thu Oct 22 16:04:21 2026
+Finding VCD file...
+./dump.vcd
+[2026-10-22 20:04:21 UTC] Opening EPWave...
+Done
